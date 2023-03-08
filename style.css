@@ -1,19 +1,19 @@
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: black;
-}
-
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('webanner.jpg');
+    background: url('pic.jpg');
     background-size:cover;
     position:relative;
 }
 
-/* text css above hero image*/
+.navbar i {
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  
+  /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
 }
 
 .hero_desc {
@@ -30,10 +30,11 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+/* #about, #services, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 } */
+
 #contact {
     padding-bottom: 4rem;
 }
@@ -59,25 +60,13 @@
     text-align: center;
 }
 
-.card:hover .servicesIcon {
-    color: #008000;
-}
-
-.servicesText:hover {
-    border: 1px solid #008000;
-}
-
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
 
-.gradpic1 {
-    width: 100%;
-}
-
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
 }
 
@@ -87,6 +76,6 @@
 
 /* footer styling */
 #footer {
-    background-color: orange;
+    background-color: white;
     text-align: center;
 }
