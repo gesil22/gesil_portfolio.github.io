@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-logo {
+    margin: 10px;
+}
+
+.navigation {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navigation > li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #28B873;
+}
+
+.about-us:hover .about-us-subnav {
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+}
+
+.about-us-subnav {
+    visibility: hidden;
+    opacity: 0;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 80px;
+    margin-left: -10px;
+    transition: visibility 0s, opacity 0.5s, top 0.3s;
+}
+
+.about-us-subnav > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.about-us-subnav > li > a:hover {
+    background-color: #28B873;
+}
+
+.socmed-links {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-brands {
+    color: black;
+}
+
+.hero-banner {
+    background-image: linear-gradient(to bottom right, #FBE6FF, white);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.main-recipe-content {
+    background-image: linear-gradient(to bottom right, #A8FFD5, white);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipe-list {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recipe-container {
+    background-color: white;
+    width: 45%;
+    margin-top: 5px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-label {
+    background-color: #28B873;
+    position: absolute;
+    padding: 3px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+}
+
+.recipe-title {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.recipe-description {
+    margin-top: 15px;
+    font-size: .8rem;
+}
+
+.recipe-other-info {
+    margin-top: 15px;
+    font-size: .6rem;
+    align-self: flex-start;
+}
+
+.recipe-filter {
+    width: 25vw;
+}
+
+.recipe-filter-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 1px #E2E3E3;
+}
+
+.search-text-input {
+    width: 100%;
+    height: 40px;
+}
+
+.search-recipe-icon {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20vw;
+}
+
+.courses-checkboxes {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.course-checkbox-item {
+    padding: 15px 5px;
+}
+
+.sub-banner {
+    background-image: linear-gradient(to bottom right, white, white, white, #A8FFD5);
+    padding: 20px 10vw;
+}
+
+.food-review-banner {
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-review-banner:hover .flex-end-align {
+    align-self: flex-start;
+}
+
+.flex-end-align {
+    align-self: flex-end;
+}
+
+.quote-and-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    width: 40vw;
+}
+
+.contact-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: black;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #FBE6FF, white, white, #A8FFD5);
+    padding: 10px 10vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-and-copyright {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.footer-links > li > a {
+    text-decoration: none;
+    color: black;
+}
