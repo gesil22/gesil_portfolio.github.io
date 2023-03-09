@@ -3,6 +3,14 @@
     background-color: black;
 }
 
+.navbar-toggler {
+    border-color: yellowgreen !important;
+}
+
+.nav-link {
+    color: yellowgreen !important;
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
