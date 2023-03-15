@@ -51,14 +51,16 @@
 
 /* about section image css */
 .imageAboutPage {
+    height: 100vh;
     width: 100%;
 }
 
 /* services section css */
 .servicesText.card {
     height: 280px;
+    height: 100vh;
     cursor: pointer;
-  }
+}
 
 .servicesIcon {
     font-size: 36px;
